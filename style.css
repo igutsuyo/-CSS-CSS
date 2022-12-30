@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.wrap img {
+  position: absolute;
+  top: 0;
+  left: 1vw;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0;
+  transition: all 0.8s;
+}
+.wrap img.-img-active {
+  opacity: 1;
+  left: 0;
+  transition-delay: 0.6s;
+}
+
+.background-border {
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+}
+
+.-border {
+  height: 100%;
+  display: flex;
+}
+
+.-border-item {
+  flex-grow: 1;
+  background-color: #ccc;
+  transform: scaleX(1);
+  transform-origin: right;
+  transition: transform 1s cubic-bezier(0.73, 0.16, 0.2, 0.79);
+}
+
+.-active .-border-item {
+  transform: scaleX(0);
+}
+
+.-border-item:nth-child(1) {
+  transition-delay: 0s;
+}
+
+.-border-item:nth-child(2) {
+  transition-delay: 0.005s;
+}
+
+.-border-item:nth-child(3) {
+  transition-delay: 0.01s;
+}
+
+.-border-item:nth-child(4) {
+  transition-delay: 0.015s;
+}
+
+.-border-item:nth-child(5) {
+  transition-delay: 0.02s;
+}
+
+.-border-item:nth-child(6) {
+  transition-delay: 0.025s;
+}
+
+.-border-item:nth-child(7) {
+  transition-delay: 0.03s;
+}
+
+.-border-item:nth-child(8) {
+  transition-delay: 0.035s;
+}
+
+.-border-item:nth-child(9) {
+  transition-delay: 0.04s;
+}
+
+.-border-item:nth-child(10) {
+  transition-delay: 0.045s;
+}
+
+.-border-item:nth-child(11) {
+  transition-delay: 0.05s;
+}
+
+.-border-item:nth-child(12) {
+  transition-delay: 0.055s;
+}
+
+.-border-item:nth-child(13) {
+  transition-delay: 0.06s;
+}
+
+.-border-item:nth-child(14) {
+  transition-delay: 0.065s;
+}
+
+.-border-item:nth-child(15) {
+  transition-delay: 0.07s;
+}
+
+.-border-item:nth-child(16) {
+  transition-delay: 0.075s;
+}
+
+.-border-item:nth-child(17) {
+  transition-delay: 0.08s;
+}
+
+.-border-item:nth-child(18) {
+  transition-delay: 0.085s;
+}
+
+.-border-item:nth-child(19) {
+  transition-delay: 0.09s;
+}
+
+.-border-item:nth-child(20) {
+  transition-delay: 0.095s;
+}
+
+.-border-item:nth-child(21) {
+  transition-delay: 0.1s;
+}
+
+.-border-item:nth-child(22) {
+  transition-delay: 0.105s;
+}
+
+.-border-item:nth-child(23) {
+  transition-delay: 0.11s;
+}
+
+.-border-item:nth-child(24) {
+  transition-delay: 0.115s;
+}
+
+.-border-item:nth-child(25) {
+  transition-delay: 0.12s;
+}
+
+.-border-item:nth-child(26) {
+  transition-delay: 0.125s;
+}
+
+.-border-item:nth-child(27) {
+  transition-delay: 0.13s;
+}
+
+.-border-item:nth-child(28) {
+  transition-delay: 0.135s;
+}
+
+.-border-item:nth-child(29) {
+  transition-delay: 0.14s;
+}
+
+.-border-item:nth-child(30) {
+  transition-delay: 0.145s;
+}
+
+.-border-item:nth-child(31) {
+  transition-delay: 0.15s;
+}
+
+.-border-item:nth-child(32) {
+  transition-delay: 0.155s;
+}
+
+.-border-item:nth-child(33) {
+  transition-delay: 0.16s;
+}
+
+.-border-item:nth-child(34) {
+  transition-delay: 0.165s;
+}
+
+.-border-item:nth-child(35) {
+  transition-delay: 0.17s;
+}
+
+.-border-item:nth-child(36) {
+  transition-delay: 0.175s;
+}
+
+.-border-item:nth-child(37) {
+  transition-delay: 0.18s;
+}
+
+.-border-item:nth-child(38) {
+  transition-delay: 0.185s;
+}
+
+.-border-item:nth-child(39) {
+  transition-delay: 0.19s;
+}
+
+.-border-item:nth-child(40) {
+  transition-delay: 0.195s;
+}
+
+.-border-item:nth-child(41) {
+  transition-delay: 0.2s;
+}
+
+.-border-item:nth-child(42) {
+  transition-delay: 0.205s;
+}
+
+.-border-item:nth-child(43) {
+  transition-delay: 0.21s;
+}
+
+.-border-item:nth-child(44) {
+  transition-delay: 0.215s;
+}
+
+.-border-item:nth-child(45) {
+  transition-delay: 0.22s;
+}
+
+.-border-item:nth-child(46) {
+  transition-delay: 0.225s;
+}
+
+.-border-item:nth-child(47) {
+  transition-delay: 0.23s;
+}
+
+.-border-item:nth-child(48) {
+  transition-delay: 0.235s;
+}
+
+.-border-item:nth-child(49) {
+  transition-delay: 0.24s;
+}
+
+.-border-item:nth-child(50) {
+  transition-delay: 0.245s;
+}
+
+.-border-item:nth-child(51) {
+  transition-delay: 0.25s;
+}
+
+.-border-item:nth-child(52) {
+  transition-delay: 0.255s;
+}
+
+.-border-item:nth-child(53) {
+  transition-delay: 0.26s;
+}
+
+.-border-item:nth-child(54) {
+  transition-delay: 0.265s;
+}
+
+.-border-item:nth-child(55) {
+  transition-delay: 0.27s;
+}
+
+.-border-item:nth-child(56) {
+  transition-delay: 0.275s;
+}
+
+.-border-item:nth-child(57) {
+  transition-delay: 0.28s;
+}
+
+.-border-item:nth-child(58) {
+  transition-delay: 0.285s;
+}
+
+.-border-item:nth-child(59) {
+  transition-delay: 0.29s;
+}
+
+.-border-item:nth-child(60) {
+  transition-delay: 0.295s;
+}/*# sourceMappingURL=style.css.map */
